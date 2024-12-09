@@ -179,7 +179,7 @@ const Layout = ({
         <meta name="keywords" content="مبدع, agency, portfolio" />
         <meta
           name="description"
-          content="قالب المحفظة الإبداعية للوكالة الرقمية"
+          content="جمعية عرقةنرصد الحاجة .. ونحفظ كرامة المحتاج"
         />
       </Head>
       <div className={combinedClassName}>
