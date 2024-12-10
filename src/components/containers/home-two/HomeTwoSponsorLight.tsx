@@ -7,7 +7,7 @@ import one from "public/images/sponsor/one-dark.png";
 import two from "public/images/sponsor/two-dark.png";
 import three from "public/images/sponsor/three-dark.png";
 import four from "public/images/sponsor/four-dark.png";
-import five from "public/images/sponsor/five-dark.png";
+import five from "public/images/sponsor/five-dark.jpg";
 import six from "public/images/sponsor/six-dark.png";
 
 const HomeTwoSponsorLight = () => {
