@@ -189,7 +189,7 @@
     }
 
     a {
-      gap: 30px;
+      gap: 16px;
     }
     &:nth-of-type(even) {
       .project__text-slider-single {
@@ -982,7 +982,8 @@
 
 // 5.13 blog two styles
 .blog-two {
-  background-color: var(--black);
+  background-color: var(--tertiary-color);
+  // background-color: var(--black);
   .blog-two__slider-single {
     position: relative;
     z-index: 1;

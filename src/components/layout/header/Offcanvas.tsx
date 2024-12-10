@@ -200,17 +200,19 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                   </button>
                   <ul className={`navbar__sub-menu ${isSubMenuOpen("pages")}`}>
                     <li>
-                      <Link href="faq">التعليمات</Link>
+                      <Link href="faq">التعريف بالجمعية</Link>
                     </li>
                     <li>
-                      <Link href="404">خطأ</Link>
+                      <Link href="https://irqahorg.sa/%d8%a7%d9%84%d8%b1%d8%a4%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d8%b1%d8%b3%d8%a7%d9%84%d8%a9/">
+                        الرؤية والرسالة
+                      </Link>
                     </li>
                     <li>
-                      <Link href="our-story">قصتنا</Link>
+                      <Link href="https://irqahorg.sa/%d9%82%d9%8a%d9%85-%d8%a7%d9%84%d8%ac%d9%85%d8%b9%d9%8a%d8%a9/">
+                        القيم{" "}
+                      </Link>
                     </li>
-                    <li>
-                      <Link href="portfolio"> المحفظة </Link>
-                    </li>
+
                     <li className="navbar__item navbar__item--has-children">
                       <button
                         aria-label="dropdown menu"
@@ -219,7 +221,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                         )}`}
                         onClick={() => handleNestedmenu("team")}
                       >
-                        فريق
+                        الجمعية العمومية
                       </button>
                       <ul
                         className={`navbar__sub-menu navbar__sub-menu__nested ${isNestedMenuOpen(
@@ -227,19 +229,49 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                         )}`}
                       >
                         <li>
-                          <Link href="our-teams">فرقنا</Link>
+                          <Link href="our-teams">اعضاء الجمعية</Link>
                         </li>
                         <li>
-                          <Link href="team-single">تفاصيل الفريق</Link>
+                          <Link href="team-single">محاضر الجمعية</Link>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <Link href="client-feedback">الشهادات - التوصيات</Link>
+                      <Link href="portfolio"> كلمة الأمين </Link>
                     </li>
-                    <li>
+                    <li className="navbar__item navbar__item--has-children">
+                      <button
+                        aria-label="dropdown menu"
+                        className={`navbar__dropdown-label navbar__dropdown-label-sub ${isNestedMenuButton(
+                          "team2"
+                        )}`}
+                        onClick={() => handleNestedmenu("team2")}
+                      >
+                        الهيكل الادراي
+                      </button>
+                      <ul
+                        className={`navbar__sub-menu navbar__sub-menu__nested ${isNestedMenuOpen(
+                          "team2"
+                        )}`}
+                      >
+                        <li>
+                          <Link href="our-teams">أعضاء مجلس الإدارة</Link>
+                        </li>
+                        <li>
+                          <Link href="team-single">الهيكل التنظيمي</Link>
+                        </li>
+                        <li>
+                          <Link href="team-single">اللجان العامله </Link>
+                        </li>
+                        <li>
+                          <Link href="team-single">الادارة التنفيذية</Link>
+                        </li>
+                      </ul>
+                    </li>
+
+                    {/* <li>
                       <Link href="contact-us">اتصل بنا</Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </li>
                 <li className="navbar__item navbar__item--has-children nav-fade">
@@ -253,11 +285,36 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                     التقارير
                   </button>
                   <ul className={`navbar__sub-menu ${isSubMenuOpen("blog")}`}>
-                    <li>
-                      <Link href="blog">مدونة</Link>
+                    <li className="navbar__item navbar__item--has-children">
+                      <button
+                        aria-label="dropdown menu"
+                        className={`navbar__dropdown-label navbar__dropdown-label-sub ${isNestedMenuButton(
+                          "moeny"
+                        )}`}
+                        onClick={() => handleNestedmenu("moeny")}
+                      >
+                        المالية
+                      </button>
+                      <ul
+                        className={`navbar__sub-menu navbar__sub-menu__nested ${isNestedMenuOpen(
+                          "moeny"
+                        )}`}
+                      >
+                        <li>
+                          <Link href="our-teams">التقارير الربعية</Link>
+                        </li>
+                        <li>
+                          <Link href="team-single">التقارير السنوية</Link>
+                        </li>
+                      </ul>
                     </li>
+
                     <li>
-                      <Link href="blog-single">تفاصيل المدونة</Link>
+                      <Link href="blog">استبانات تقييم الاداء</Link>
+                    </li>
+
+                    <li>
+                      <Link href="blog-single">املاك الجمعية</Link>
                     </li>
                   </ul>
                 </li>

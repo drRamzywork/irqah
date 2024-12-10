@@ -12,10 +12,12 @@ const HomeBlog = () => {
           <div className="col-12 col-lg-8">
             <div className="section__header text-center">
               <span className="sub-title">
-                الأخبار والمدونة
-                <i className="fa-solid fa-arrow-right"></i>
+                خدماتنا
+                <i className="fa-solid fa-arrow-up "></i>
               </span>
-              <h2 className="title title-anim">ما الجديد في المدونة</h2>
+              <h2 className="title ">
+                نفخر بخدماتنا التى نقدمها للمجتمع . فبكم نحيا ونتطور.
+              </h2>
             </div>
           </div>
         </div>

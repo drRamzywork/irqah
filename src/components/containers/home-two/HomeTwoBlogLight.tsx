@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import three from "public/images/blog/three.png";
+import two from "public/images/blog/two.png";
 import four from "public/images/blog/four.png";
 import five from "public/images/blog/five.png";
 
@@ -19,10 +19,10 @@ const HomeTwoBlogLight = () => {
                 <div className="col-12 col-lg-8">
                   <div className="section__header text-center text-lg-end mb-0">
                     <span className="sub-title">
-                      الأخبار والمدونة
-                      <i className="fa-solid fa-arrow-right"></i>
+                      الخدمات
+                      <i className="fa-solid fa-arrow-up"></i>
                     </span>
-                    <h2 className="title title-anim">ما الجديد في المدونة</h2>
+                    <h2 className="title"> الخدمات الالكترونية</h2>
                   </div>
                 </div>
                 <div className="col-12 col-lg-4">
@@ -80,21 +80,63 @@ const HomeTwoBlogLight = () => {
             <div className="blog-two__slider-single topy-tilt">
               <div className="blog__single-thumb">
                 <Link href="blog-single">
-                  <Image src={three} alt="Image" />
+                  <Image src={two} alt="Image" />
                 </Link>
               </div>
               <div className="blog__single-content">
                 <h4>
-                  <Link href="blog-single">
-                    قائمة مراجعة بسيطة للتسويق عبر وسائل التواصل الاجتماعي
-                  </Link>
+                  <Link href="blog-single">طلب عضوية</Link>
                 </h4>
                 <div className="blog__single-meta">
-                  <Link href="blog" className="sub-title">
-                    مبدع
-                    <i className="fa-solid fa-arrow-right"></i>
+                  <Link href="contact-us" className="sub-title">
+                    سجل عضويتك الأن
+                    <i className="fa-solid fa-arrow-up"></i>
                   </Link>
-                  <p>MARCH 23, 2023</p>
+                  <p>قدم طلب عضوية</p>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="blog-two__slider-single topy-tilt">
+              <div className="blog__single-thumb">
+                <Link href="blog-single">
+                  <Image src={two} alt="Image" />
+                </Link>
+              </div>
+              <div className="blog__single-content">
+                <h4>
+                  <Link href="blog-single">أخبرنا عن محتاج</Link>
+                </h4>
+                <div className="blog__single-meta">
+                  <Link href="contact-us" className="sub-title">
+                    سجل عضويتك الأن
+                    <i className="fa-solid fa-arrow-up"></i>
+                  </Link>
+                  <p>قدم طلب عضوية</p>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="blog-two__slider-single topy-tilt">
+              <div className="blog__single-thumb">
+                <Link href="blog-single">
+                  <Image src={two} alt="Image" />
+                </Link>
+              </div>
+              <div className="blog__single-content">
+                <h4>
+                  <Link href="blog-single">حجز موعد للتبرع</Link>
+                </h4>
+                <div className="blog__single-meta">
+                  <Link href="contact-us" className="sub-title">
+                    احجز موعد تبرع الأن
+                    <i className="fa-solid fa-arrow-up"></i>
+                  </Link>
+                  <p>احجز موعد تبرع الأن</p>
                 </div>
               </div>
             </div>
@@ -103,176 +145,19 @@ const HomeTwoBlogLight = () => {
             <div className="blog-two__slider-single topy-tilt">
               <div className="blog__single-thumb">
                 <Link href="blog-single">
-                  <Image src={four} alt="Image" />
+                  <Image src={two} alt="Image" />
                 </Link>
               </div>
               <div className="blog__single-content">
                 <h4>
-                  <Link href="blog-single">تحويل التحديات إلى فرص</Link>
+                  <Link href="blog-single">حجز موعد للتبرع</Link>
                 </h4>
                 <div className="blog__single-meta">
-                  <Link href="blog" className="sub-title">
-                    مبدع
-                    <i className="fa-solid fa-arrow-right"></i>
+                  <Link href="contact-us" className="sub-title">
+                    تسجيل مستفيد جديد
+                    <i className="fa-solid fa-arrow-up"></i>
                   </Link>
-                  <p>MARCH 23, 2023</p>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="blog-two__slider-single topy-tilt">
-              <div className="blog__single-thumb">
-                <Link href="blog-single">
-                  <Image src={five} alt="Image" />
-                </Link>
-              </div>
-              <div className="blog__single-content">
-                <h4>
-                  <Link href="blog-single">
-                    قائمة مراجعة بسيطة للتسويق عبر وسائل التواصل الاجتماعي
-                  </Link>
-                </h4>
-                <div className="blog__single-meta">
-                  <Link href="blog" className="sub-title">
-                    مبدع
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </Link>
-                  <p>MARCH 23, 2023</p>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="blog-two__slider-single topy-tilt">
-              <div className="blog__single-thumb">
-                <Link href="blog-single">
-                  <Image src={three} alt="Image" />
-                </Link>
-              </div>
-              <div className="blog__single-content">
-                <h4>
-                  <Link href="blog-single">
-                    قائمة مراجعة بسيطة للتسويق عبر وسائل التواصل الاجتماعي
-                  </Link>
-                </h4>
-                <div className="blog__single-meta">
-                  <Link href="blog" className="sub-title">
-                    مبدع
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </Link>
-                  <p>MARCH 23, 2023</p>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="blog-two__slider-single topy-tilt">
-              <div className="blog__single-thumb">
-                <Link href="blog-single">
-                  <Image src={four} alt="Image" />
-                </Link>
-              </div>
-              <div className="blog__single-content">
-                <h4>
-                  <Link href="blog-single">تحويل التحديات إلى فرص</Link>
-                </h4>
-                <div className="blog__single-meta">
-                  <Link href="blog" className="sub-title">
-                    مبدع
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </Link>
-                  <p>MARCH 23, 2023</p>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="blog-two__slider-single topy-tilt">
-              <div className="blog__single-thumb">
-                <Link href="blog-single">
-                  <Image src={five} alt="Image" />
-                </Link>
-              </div>
-              <div className="blog__single-content">
-                <h4>
-                  <Link href="blog-single">
-                    قائمة مراجعة بسيطة للتسويق عبر وسائل التواصل الاجتماعي
-                  </Link>
-                </h4>
-                <div className="blog__single-meta">
-                  <Link href="blog" className="sub-title">
-                    مبدع
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </Link>
-                  <p>MARCH 23, 2023</p>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="blog-two__slider-single topy-tilt">
-              <div className="blog__single-thumb">
-                <Link href="blog-single">
-                  <Image src={three} alt="Image" />
-                </Link>
-              </div>
-              <div className="blog__single-content">
-                <h4>
-                  <Link href="blog-single">
-                    قائمة مراجعة بسيطة للتسويق عبر وسائل التواصل الاجتماعي
-                  </Link>
-                </h4>
-                <div className="blog__single-meta">
-                  <Link href="blog" className="sub-title">
-                    مبدع
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </Link>
-                  <p>MARCH 23, 2023</p>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="blog-two__slider-single topy-tilt">
-              <div className="blog__single-thumb">
-                <Link href="blog-single">
-                  <Image src={four} alt="Image" />
-                </Link>
-              </div>
-              <div className="blog__single-content">
-                <h4>
-                  <Link href="blog-single">تحويل التحديات إلى فرص</Link>
-                </h4>
-                <div className="blog__single-meta">
-                  <Link href="blog" className="sub-title">
-                    مبدع
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </Link>
-                  <p>MARCH 23, 2023</p>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="blog-two__slider-single topy-tilt">
-              <div className="blog__single-thumb">
-                <Link href="blog-single">
-                  <Image src={five} alt="Image" />
-                </Link>
-              </div>
-              <div className="blog__single-content">
-                <h4>
-                  <Link href="blog-single">
-                    قائمة مراجعة بسيطة للتسويق عبر وسائل التواصل الاجتماعي
-                  </Link>
-                </h4>
-                <div className="blog__single-meta">
-                  <Link href="blog" className="sub-title">
-                    مبدع
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </Link>
-                  <p>MARCH 23, 2023</p>
+                  <p>احجز موعد تبرع الأن</p>
                 </div>
               </div>
             </div>

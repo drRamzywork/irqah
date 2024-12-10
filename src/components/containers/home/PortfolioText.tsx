@@ -12,11 +12,12 @@ import five from "public/images/portfolio/five.png";
 import six from "public/images/portfolio/six.png";
 import seven from "public/images/portfolio/seven.png";
 import dot from "public/images/portfolio/dot.png";
+import irqah from "public/images/portfolio/irqah.jpg";
 
 const PortfolioText = () => {
   const [hover, setHover] = useState(0);
   return (
-    <section className="section portfolio pb-0 fade-wrapper position-relative">
+    <section className="section pb-1 portfolio pb-0 fade-wrapper position-relative blog">
       <div className="portfolio__text-slider-w">
         <Swiper
           slidesPerView="auto"
@@ -31,14 +32,177 @@ const PortfolioText = () => {
             pauseOnMouseEnter: true,
             reverseDirection: false,
           }}
+          // autoplay={false}
           className="portfolio__text-slider"
         >
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
+              <h2 className="h3">
+                <Link
+                  style={{ fontFamily: "var(--theme-font) !important" }}
+                  className="text-white"
+                  href="https://irqahorg.sa/%d9%85%d8%b4%d8%a7%d8%b1%d9%83%d8%a9-%d8%a7%d9%84%d8%ac%d9%85%d8%b9%d9%8a%d8%a9-%d9%81%d9%8a-%d9%85%d9%84%d8%aa%d9%82%d9%89-%d9%88%d8%b3%d8%b7%d8%a7%d8%a1-%d8%a7%d9%84%d8%aa%d9%85%d9%88%d9%8a%d9%84/"
+                >
+                  مشاركة الجمعية في ملتقى وسطاء التمويل الأصغر{" "}
+                  <img
+                    src={irqah.src}
+                    alt="arrow icon"
+                    style={{
+                      width: "50px",
+                      height: "50px",
+                      borderRadius: "50%",
+                      marginLeft: "8px",
+                      verticalAlign: "middle",
+                      objectFit: "cover",
+                    }}
+                  />{" "}
+                  <i className="fa-sharp fa-solid fa-arrow-up-left"></i>
+                </Link>
+              </h2>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="portfolio__text-slider-single">
+              <h2 className="h3">
+                <Link
+                  style={{ fontFamily: "var(--theme-font) !important" }}
+                  className="text-white"
+                  href="https://irqahorg.sa/%d9%85%d8%b4%d8%a7%d8%b1%d9%83%d8%a9-%d8%a7%d9%84%d8%ac%d9%85%d8%b9%d9%8a%d8%a9-%d9%81%d9%8a-%d9%85%d9%84%d8%aa%d9%82%d9%89-%d9%88%d8%b3%d8%b7%d8%a7%d8%a1-%d8%a7%d9%84%d8%aa%d9%85%d9%88%d9%8a%d9%84/"
+                >
+                  مشاركة الجمعية في ملتقى وسطاء التمويل الأصغر{" "}
+                  <img
+                    src={irqah.src}
+                    alt="arrow icon"
+                    style={{
+                      width: "50px",
+                      height: "50px",
+                      borderRadius: "50%",
+                      marginLeft: "8px",
+                      verticalAlign: "middle",
+                      objectFit: "cover",
+                    }}
+                  />{" "}
+                  <i className="fa-sharp fa-solid fa-arrow-up-left"></i>
+                </Link>
+              </h2>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="portfolio__text-slider-single">
+              <h2 className="h3">
+                <Link
+                  style={{ fontFamily: "var(--theme-font) !important" }}
+                  className="text-white"
+                  href="https://irqahorg.sa/%d9%85%d8%b4%d8%a7%d8%b1%d9%83%d8%a9-%d8%a7%d9%84%d8%ac%d9%85%d8%b9%d9%8a%d8%a9-%d9%81%d9%8a-%d9%85%d9%84%d8%aa%d9%82%d9%89-%d9%88%d8%b3%d8%b7%d8%a7%d8%a1-%d8%a7%d9%84%d8%aa%d9%85%d9%88%d9%8a%d9%84/"
+                >
+                  مشاركة الجمعية في ملتقى وسطاء التمويل الأصغر{" "}
+                  <img
+                    src={irqah.src}
+                    alt="arrow icon"
+                    style={{
+                      width: "50px",
+                      height: "50px",
+                      borderRadius: "50%",
+                      marginLeft: "8px",
+                      verticalAlign: "middle",
+                      objectFit: "cover",
+                    }}
+                  />{" "}
+                  <i className="fa-sharp fa-solid fa-arrow-up-left"></i>
+                </Link>
+              </h2>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="portfolio__text-slider-single">
+              <h2 className="h3">
+                <Link
+                  style={{ fontFamily: "var(--theme-font) !important" }}
+                  className="text-white"
+                  href="https://irqahorg.sa/%d9%85%d8%b4%d8%a7%d8%b1%d9%83%d8%a9-%d8%a7%d9%84%d8%ac%d9%85%d8%b9%d9%8a%d8%a9-%d9%81%d9%8a-%d9%85%d9%84%d8%aa%d9%82%d9%89-%d9%88%d8%b3%d8%b7%d8%a7%d8%a1-%d8%a7%d9%84%d8%aa%d9%85%d9%88%d9%8a%d9%84/"
+                >
+                  مشاركة الجمعية في ملتقى وسطاء التمويل الأصغر{" "}
+                  <img
+                    src={irqah.src}
+                    alt="arrow icon"
+                    style={{
+                      width: "50px",
+                      height: "50px",
+                      borderRadius: "50%",
+                      marginLeft: "8px",
+                      verticalAlign: "middle",
+                      objectFit: "cover",
+                    }}
+                  />{" "}
+                  <i className="fa-sharp fa-solid fa-arrow-up-left"></i>
+                </Link>
+              </h2>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="portfolio__text-slider-single">
+              <h2 className="h3">
+                <Link
+                  style={{ fontFamily: "var(--theme-font) !important" }}
+                  className="text-white"
+                  href="https://irqahorg.sa/%d9%85%d8%b4%d8%a7%d8%b1%d9%83%d8%a9-%d8%a7%d9%84%d8%ac%d9%85%d8%b9%d9%8a%d8%a9-%d9%81%d9%8a-%d9%85%d9%84%d8%aa%d9%82%d9%89-%d9%88%d8%b3%d8%b7%d8%a7%d8%a1-%d8%a7%d9%84%d8%aa%d9%85%d9%88%d9%8a%d9%84/"
+                >
+                  مشاركة الجمعية في ملتقى وسطاء التمويل الأصغر{" "}
+                  <img
+                    src={irqah.src}
+                    alt="arrow icon"
+                    style={{
+                      width: "50px",
+                      height: "50px",
+                      borderRadius: "50%",
+                      marginLeft: "8px",
+                      verticalAlign: "middle",
+                      objectFit: "cover",
+                    }}
+                  />{" "}
+                  <i className="fa-sharp fa-solid fa-arrow-up-left"></i>
+                </Link>
+              </h2>
+            </div>
+          </SwiperSlide>
+
+          {/* <SwiperSlide>
+            <div className="portfolio__text-slider-single">
+              <h2 className="h1 str">
+                <Link href="https://irqahorg.sa/%d9%85%d8%b4%d8%a7%d8%b1%d9%83%d8%a9-%d8%ac%d9%85%d8%b9%d9%8a%d8%a9-%d8%b9%d8%b1%d9%82%d8%a9-%d8%a7%d9%84%d8%ae%d9%8a%d8%b1%d9%8a%d8%a9-%d9%81%d9%8a-%d9%81%d8%b9%d8%a7%d9%84%d9%8a%d8%a9-%d9%85%d8%b9/">
+                  مشاركة جمعية عرقة الخيرية في فعالية معرض الخير بمقر الاتصالات
+                  السعودية STC{" "}
+                  <i className="fa-sharp fa-solid fa-arrow-up-righ"></i>
+                </Link>
+              </h2>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="portfolio__text-slider-single">
               <h2 className="h1">
-                <Link href="portfolio">
-                  محفظة رقمية
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
+                <Link href="https://irqahorg.sa/%d9%85%d8%b4%d8%b1%d9%88%d8%b9-%d8%aa%d9%81%d8%b7%d9%8a%d8%b1-%d8%b5%d8%a7%d8%a6%d9%85-1440/">
+                  مشروع تفطير صائم 1440{" "}
+                  <i className="fa-sharp fa-solid fa-arrow-up-righ"></i>
+                </Link>
+              </h2>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="portfolio__text-slider-single">
+              <h2 className="h1 str">
+                <Link href="https://irqahorg.sa/%d9%85%d8%b4%d8%b1%d9%88%d8%b9-%d8%a7%d8%b3%d8%aa%d9%82%d8%a8%d8%a7%d9%84-%d8%a7%d9%84%d8%a7%d8%b6%d8%a7%d8%ad%d9%8a-%d9%84%d8%b9%d8%a7%d9%85-1439%d9%87%d9%80/">
+                  مشروع استقبال الاضاحي لعام 1439هـ{" "}
+                  <i className="fa-sharp fa-solid fa-arrow-up-righ"></i>
+                </Link>
+              </h2>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="portfolio__text-slider-single">
+              <h2 className="h1">
+                <Link href="https://irqahorg.sa/%d9%85%d9%86-%d9%85%d8%b4%d8%a7%d8%b1%d9%8a%d8%b9-%d8%b1%d9%85%d8%b6%d8%a7%d9%86-1439-%d9%87%d9%80-%d8%aa%d9%88%d8%b2%d9%8a%d8%b9-%d8%a7%d9%84%d8%b3%d9%84%d8%a7%d9%84-%d8%a7%d9%84%d8%ba%d8%b0%d8%a7/">
+                  من مشاريع رمضان 1439 هـ (توزيع السلال الغذائية ){" "}
+                  <i className="fa-sharp fa-solid fa-arrow-up-righ"></i>
                 </Link>
               </h2>
             </div>
@@ -48,7 +212,7 @@ const PortfolioText = () => {
               <h2 className="h1 str">
                 <Link href="portfolio">
                   محفظة رقمية
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
+                  <i className="fa-sharp fa-solid fa-arrow-up-righ"></i>
                 </Link>
               </h2>
             </div>
@@ -56,56 +220,16 @@ const PortfolioText = () => {
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
-                <Link href="portfolio">
-                  محفظة رقمية
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
+                <Link href="https://irqahorg.sa/%d8%b2%d9%8a%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%a7%d8%b0-%d8%b9%d8%a8%d8%af%d8%a7%d9%84%d8%b9%d8%b2%d9%8a%d8%b2-%d8%a7%d9%84%d9%85%d8%b1%d8%b4%d8%af/">
+                  زيارة الاستاذ عبدالعزيز المرشد{" "}
+                  <i className="fa-sharp fa-solid fa-arrow-up-righ"></i>
                 </Link>
               </h2>
             </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="portfolio__text-slider-single">
-              <h2 className="h1 str">
-                <Link href="portfolio">
-                  محفظة رقمية
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h2>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="portfolio__text-slider-single">
-              <h2 className="h1">
-                <Link href="portfolio">
-                  محفظة رقمية
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h2>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="portfolio__text-slider-single">
-              <h2 className="h1 str">
-                <Link href="portfolio">
-                  محفظة رقمية
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h2>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="portfolio__text-slider-single">
-              <h2 className="h1">
-                <Link href="portfolio">
-                  محفظة رقمية
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h2>
-            </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
       </div>
-      <div className="container-fluid">
+      {/* <div className="container-fluid">
         <div className="row gaper">
           <div className="col-12 col-sm-6 col-xl-3">
             <div
@@ -120,7 +244,7 @@ const PortfolioText = () => {
               </Link>
               <div className="portfolio__single-content">
                 <Link href="portfolio">
-                  <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                  <i className="fa-sharp fa-solid fa-arrow-up-left"></i>
                 </Link>
                 <h4>
                   <Link href="portfolio">التسويق الرقمي</Link>
@@ -276,7 +400,7 @@ const PortfolioText = () => {
         <div className="line"></div>
         <div className="line"></div>
         <div className="line"></div>
-      </div>
+      </div> */}
     </section>
   );
 };

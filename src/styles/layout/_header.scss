@@ -236,7 +236,8 @@
     transition: var(--transition);
     z-index: 9999;
     transition: all 0.6s ease-in-out;
-    background-color: #191919;
+    // background-color: #191919;
+    background-color: #0e250c;
 
     &::before {
       content: "استكشف الصفحات";
