@@ -60,68 +60,47 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                   </div>
                   <div className="navbar__menu">
                     <ul>
-                      <li className="navbar__item navbar__item--has-children nav-fade">
-                        <button
-                          aria-label="dropdown menu"
-                          className="navbar__dropdown-label"
-                        >
-                          بيت
-                        </button>
-                        <ul className="navbar__sub-menu navbar__sub-menu--lg">
-                          <li>
-                            <Link href="/">وكالة إبداعية</Link>
-                          </li>
-                          <li>
-                            <Link href="index-light">وكالة إبداعية ضوء</Link>
-                          </li>
-                          <li>
-                            <Link href="index-two">الوكالة الرقمية</Link>
-                          </li>
-                          <li>
-                            <Link href="index-two-light">
-                              الوكالة الرقمية ضوء
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="index-three">انها الحل</Link>
-                          </li>
-                          <li>
-                            <Link href="index-three-light">انها الحل ضوء</Link>
-                          </li>
-                          <li>
-                            <Link href="index-four">المحفظة الشخصية</Link>
-                          </li>
-                          <li>
-                            <Link href="index-four-light">
-                              المحفظة الشخصية ضوء
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="index-five">محفظة تفاعلية</Link>
-                          </li>
-                          <li>
-                            <Link href="index-five-light">
-                              محفظة تفاعلية ضوء
-                            </Link>
-                          </li>
-                        </ul>
+                      <li className="navbar__item nav-fade">
+                        <Link href="about-us">الرئيسية</Link>
                       </li>
                       <li className="navbar__item nav-fade">
-                        <Link href="about-us">معلومات عنا</Link>
+                        <Link href="https://store.irqahorg.sa/">
+                          موقع التبرعات
+                        </Link>
                       </li>
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button
                           aria-label="dropdown menu"
                           className="navbar__dropdown-label"
                         >
-                          خدمات
+                          المركز الإعلامي
                         </button>
                         <ul className="navbar__sub-menu">
                           <li>
-                            <Link href="our-services">خدماتنا</Link>
+                            <Link href="/news">الأخبار</Link>
                           </li>
                           <li>
-                            <Link href="service-single">تفاصيل الخدمة</Link>
+                            <Link href="service-single"> معرض الصور</Link>
+                          </li>
+                          <li>
+                            <Link href="service-single"> مكتبةالفيديو </Link>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li className="navbar__item navbar__item--has-children nav-fade">
+                        <button
+                          aria-label="dropdown menu"
+                          className="navbar__dropdown-label"
+                        >
+                          السياسات والأليات واللوائح
+                        </button>
+                        <ul className="navbar__sub-menu">
+                          <li>
+                            <Link href="our-projects">سياسة الخصوصية</Link>
+                          </li>
+                          <li>
+                            <Link href="project-single">تفاصيل المشروع </Link>
                           </li>
                         </ul>
                       </li>
@@ -130,50 +109,32 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           aria-label="dropdown menu"
                           className="navbar__dropdown-label"
                         >
-                          المشاريع
+                          من نحن
                         </button>
                         <ul className="navbar__sub-menu">
                           <li>
-                            <Link href="our-projects">مشاريعنا</Link>
+                            <Link href="https://irqahorg.sa/%d8%a7%d9%84%d8%b1%d8%a4%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d8%b1%d8%b3%d8%a7%d9%84%d8%a9/">
+                              الرؤية والرسالة
+                            </Link>
                           </li>
                           <li>
-                            <Link href="project-single">تفاصيل المشروع</Link>
-                          </li>
-                        </ul>
-                      </li>
-                      <li className="navbar__item navbar__item--has-children nav-fade">
-                        <button
-                          aria-label="dropdown menu"
-                          className="navbar__dropdown-label"
-                        >
-                          الصفحات
-                        </button>
-                        <ul className="navbar__sub-menu">
-                          <li>
-                            <Link href="faq">التعليمات</Link>
-                          </li>
-                          <li>
-                            <Link href="404">خطأ</Link>
-                          </li>
-                          <li>
-                            <Link href="our-story">قصتنا</Link>
-                          </li>
-                          <li>
-                            <Link href="portfolio"> المحفظة </Link>
+                            <Link href="https://irqahorg.sa/%d9%82%d9%8a%d9%85-%d8%a7%d9%84%d8%ac%d9%85%d8%b9%d9%8a%d8%a9/">
+                              القيم{" "}
+                            </Link>
                           </li>
                           <li className="navbar__item navbar__item--has-children">
                             <button
                               aria-label="dropdown menu"
                               className="navbar__dropdown-label navbar__dropdown-label-sub"
                             >
-                              فريق
+                              الجمعية العمومية
                             </button>
                             <ul className="navbar__sub-menu navbar__sub-menu__nested">
                               <li>
-                                <Link href="our-teams">فرقنا</Link>
+                                <Link href="our-teams">اعضاء الجمعية</Link>
                               </li>
                               <li>
-                                <Link href="team-single">تفاصيل الفريق</Link>
+                                <Link href="team-single">محاضر الجمعية</Link>
                               </li>
                             </ul>
                           </li>
@@ -183,23 +144,42 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                             </Link>
                           </li>
                           <li>
-                            <Link href="contact-us">اتصل بنا</Link>
+                            <Link href="portfolio"> كلمة الأمين </Link>
                           </li>
                         </ul>
                       </li>
+
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button
                           aria-label="dropdown menu"
                           className="navbar__dropdown-label"
                         >
-                          مدونة
+                          التقارير
                         </button>
                         <ul className="navbar__sub-menu">
-                          <li>
-                            <Link href="blog">مدونة</Link>
+                          <li className="navbar__item navbar__item--has-children">
+                            <button
+                              aria-label="dropdown menu"
+                              className="navbar__dropdown-label navbar__dropdown-label-sub"
+                            >
+                              المالية
+                            </button>
+                            <ul className="navbar__sub-menu navbar__sub-menu__nested">
+                              <li>
+                                <Link href="our-teams">التقارير الربعية</Link>
+                              </li>
+                              <li>
+                                <Link href="team-single">التقارير السنوية</Link>
+                              </li>
+                            </ul>
                           </li>
                           <li>
-                            <Link href="blog-single">تفاصيل المدونة</Link>
+                            <Link href="client-feedback">
+                              الشهادات - التوصيات
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href="portfolio"> كلمة الأمين </Link>
                           </li>
                         </ul>
                       </li>

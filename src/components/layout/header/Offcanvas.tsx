@@ -151,7 +151,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                     className={`navbar__sub-menu ${isSubMenuOpen("services")}`}
                   >
                     <li>
-                      <Link href="https://irqahorg.sa/news/" target="_blank">
+                      <Link href="/news" target="_blank">
                         الأخبار
                       </Link>
                     </li>

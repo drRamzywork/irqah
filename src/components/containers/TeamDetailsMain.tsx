@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import one from "public/images/teams/one.png";
+import one from "public/images/teams/one.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 const TeamDetailsMain = () => {
@@ -71,13 +71,13 @@ const TeamDetailsMain = () => {
   }, []);
 
   return (
-    <section className="section pb-0 team-det fade-wrapper">
+    <section className="section team-det fade-wrapper bg-white ">
       <div className="container">
         <div className="row gaper">
           <div className="col-12 col-lg-5 col-xxl-4">
             <div className="team-det__thumb fade-top">
               <Image src={one} alt="Image" />
-              <div className="social-alt">
+              {/* <div className="social-alt">
                 <Link
                   href="https://www.facebook.com/"
                   target="_blank"
@@ -99,19 +99,19 @@ const TeamDetailsMain = () => {
                 >
                   <i className="fa-brands fa-linkedin-in"></i>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-12 col-lg-7 col-xxl-8">
             <div className="team-det__content fade-top">
               <div className="intro">
                 <div className="intro-left">
-                  <h4>سناء ص. ليش</h4>
-                  <p>كبير المهندسين</p>
+                  <h4>توقيع عقد هندسة الإجراءات مع (شركة تام)</h4>
+                  <p>عنوان </p>
                 </div>
                 <div className="intro-right">
                   <Link href="contact-us" className="btn btn--primary">
-                    وظفني
+                    مشاركة
                     <i className="fa-sharp fa-solid fa-paper-plane"></i>
                   </Link>
                 </div>
@@ -119,17 +119,14 @@ const TeamDetailsMain = () => {
               <div className="content">
                 <h5>أن يتجنب</h5>
                 <p>
-                  عرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل
-                  الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما
-                  أراد أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد
-                  أن يتجنب الألم الذي ربما تنجم عنه بعض المتعة ؟ علي الجانب
-                  الآخر نشجب ونستنكر هؤلاء الرجال المفتونون بنشوة اللحظة
-                  الهائمون في رغباتهم فلا يدركون ما يعقبها من الألم والأسي
-                  المحتم، واللوم كذلك يشمل هؤلاء الذين أخفقوا في واجباتهم نتيجة
-                  لضعف إرادتهم
+                  حرصاً من إدارة جمعية عرقة الخيرية على تطوير العمل وتحقيق أعلى
+                  معايير الجودة والتميز المؤسسي ،تم بحمد الله وتوفيقة توقيع عقد
+                  هندسة الإجراءات والعمليات بالجمعية مع شركة تام مُمثلة بالمهندس
+                  سعيد اليزيدي ، حيث سيتم بناء دليل العمليات وفق أدوات ومنهجية
+                  عالمية.
                 </p>
               </div>
-              <div className="skill-wrap">
+              {/* <div className="skill-wrap">
                 <div className="skill-bar-single">
                   <div className="skill-bar-title">
                     <p>إطار سلكي</p>
@@ -178,11 +175,11 @@ const TeamDetailsMain = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-12">
             <div className="team-det__info fade-top">
               <h4>الخلفية التعليمية</h4>
@@ -219,7 +216,7 @@ const TeamDetailsMain = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import one from "public/images/teams/one.png";
+import one from "public/images/teams/one.jpg";
 import two from "public/images/teams/two.png";
 import three from "public/images/teams/three.png";
 import four from "public/images/teams/four.png";
@@ -10,13 +10,13 @@ import six from "public/images/teams/six.png";
 
 const TeamMain = () => {
   return (
-    <section className="section team-m fade-wrapper">
+    <section className="section team-m fade-wrapper bg-white">
       <div className="container">
         <div className="row gaper">
           <div className="col-12 col-md-6 col-xl-4">
             <div className="team-m__single fade-top">
               <div className="thumb">
-                <Link href="team-single">
+                <Link href="/news/topic">
                   <Image src={one} alt="Image" />
                 </Link>
                 <div
@@ -24,15 +24,12 @@ const TeamMain = () => {
                   style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                 >
                   <div className="info">
-                    <p>
-                      لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول
-                      استنكار
-                    </p>
+                    <p>فتح باب الإنضمام لعضوية الجمعية العمومية</p>
                   </div>
                   <h4>
-                    <Link href="team-single">سناء ص. ليش</Link>
+                    <Link href="/news/topic">العنوان</Link>
                   </h4>
-                  <p>كبير المهندسين</p>
+                  <p>تاريخ الاعلان : 20/11/2022</p>
                   <div className="social-alt">
                     <Link
                       href="https://www.facebook.com/"
@@ -63,23 +60,20 @@ const TeamMain = () => {
           <div className="col-12 col-md-6 col-xl-4">
             <div className="team-m__single fade-top">
               <div className="thumb">
-                <Link href="team-single">
-                  <Image src={two} alt="Image" />
+                <Link href="/news/topic">
+                  <Image src={one} alt="Image" />
                 </Link>
                 <div
                   className="thumb__content"
                   style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                 >
                   <div className="info">
-                    <p>
-                      لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول
-                      استنكار
-                    </p>
+                    <p>فتح باب الإنضمام لعضوية الجمعية العمومية</p>
                   </div>
                   <h4>
-                    <Link href="team-single">سناء ص. ليش</Link>
+                    <Link href="/news/topic">العنوان</Link>
                   </h4>
-                  <p>كبير المهندسين</p>
+                  <p> تاريخ الاعلان : 20/11/2022 </p>
                   <div className="social-alt">
                     <Link
                       href="https://www.facebook.com/"
@@ -110,23 +104,20 @@ const TeamMain = () => {
           <div className="col-12 col-md-6 col-xl-4">
             <div className="team-m__single fade-top">
               <div className="thumb">
-                <Link href="team-single">
-                  <Image src={three} alt="Image" />
+                <Link href="/news/topic">
+                  <Image src={one} alt="Image" />
                 </Link>
                 <div
                   className="thumb__content"
                   style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                 >
                   <div className="info">
-                    <p>
-                      لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول
-                      استنكار
-                    </p>
+                    <p>فتح باب الإنضمام لعضوية الجمعية العمومية</p>
                   </div>
                   <h4>
-                    <Link href="team-single">سناء ص. ليش</Link>
+                    <Link href="/news/topic">العنوان</Link>
                   </h4>
-                  <p>كبير المهندسين</p>
+                  <p> تاريخ الاعلان : 20/11/2022 </p>
                   <div className="social-alt">
                     <Link
                       href="https://www.facebook.com/"
@@ -157,23 +148,20 @@ const TeamMain = () => {
           <div className="col-12 col-md-6 col-xl-4">
             <div className="team-m__single fade-top">
               <div className="thumb">
-                <Link href="team-single">
-                  <Image src={four} alt="Image" />
+                <Link href="/news/topic">
+                  <Image src={one} alt="Image" />
                 </Link>
                 <div
                   className="thumb__content"
                   style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                 >
                   <div className="info">
-                    <p>
-                      لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول
-                      استنكار
-                    </p>
+                    <p>فتح باب الإنضمام لعضوية الجمعية العمومية</p>
                   </div>
                   <h4>
-                    <Link href="team-single">سناء ص. ليش</Link>
+                    <Link href="/news/topic">العنوان</Link>
                   </h4>
-                  <p>كبير المهندسين</p>
+                  <p> تاريخ الاعلان : 20/11/2022 </p>
                   <div className="social-alt">
                     <Link
                       href="https://www.facebook.com/"
@@ -204,23 +192,20 @@ const TeamMain = () => {
           <div className="col-12 col-md-6 col-xl-4">
             <div className="team-m__single fade-top">
               <div className="thumb">
-                <Link href="team-single">
-                  <Image src={five} alt="Image" />
+                <Link href="/news/topic">
+                  <Image src={one} alt="Image" />
                 </Link>
                 <div
                   className="thumb__content"
                   style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                 >
                   <div className="info">
-                    <p>
-                      لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول
-                      استنكار
-                    </p>
+                    <p>فتح باب الإنضمام لعضوية الجمعية العمومية</p>
                   </div>
                   <h4>
-                    <Link href="team-single">سناء ص. ليش</Link>
+                    <Link href="/news/topic">العنوان</Link>
                   </h4>
-                  <p>كبير المهندسين</p>
+                  <p> تاريخ الاعلان : 20/11/2022 </p>
                   <div className="social-alt">
                     <Link
                       href="https://www.facebook.com/"
@@ -251,23 +236,20 @@ const TeamMain = () => {
           <div className="col-12 col-md-6 col-xl-4">
             <div className="team-m__single fade-top">
               <div className="thumb">
-                <Link href="team-single">
-                  <Image src={six} alt="Image" />
+                <Link href="/news/topic">
+                  <Image src={one} alt="Image" />
                 </Link>
                 <div
                   className="thumb__content"
                   style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                 >
                   <div className="info">
-                    <p>
-                      لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول
-                      استنكار
-                    </p>
+                    <p>فتح باب الإنضمام لعضوية الجمعية العمومية</p>
                   </div>
                   <h4>
-                    <Link href="team-single">سناء ص. ليش</Link>
+                    <Link href="/news/topic">العنوان</Link>
                   </h4>
-                  <p>كبير المهندسين</p>
+                  <p> تاريخ الاعلان : 20/11/2022 </p>
                   <div className="social-alt">
                     <Link
                       href="https://www.facebook.com/"
@@ -296,13 +278,13 @@ const TeamMain = () => {
             </div>
           </div>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-12">
             <div className="section__content-cta text-center">
               <button className="btn btn--secondary">تحميل المزيد..</button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

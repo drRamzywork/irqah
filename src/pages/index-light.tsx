@@ -21,7 +21,7 @@ const HomeLight = () => {
       {/* <HomeBlog /> */}
       <HomeTwoBlogLight />
 
-      <HomeSponsorLight />
+      {/* <HomeSponsorLight /> */}
       <NextPage />
     </Layout>
   );
