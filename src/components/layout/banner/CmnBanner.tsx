@@ -19,7 +19,7 @@ const CmnBanner = ({ title, navigation, parent, parentLink }: BannerProps) => {
           <div className="row gaper align-items-center">
             <div className="col-12 col-lg-5 col-xl-7">
               <div className="text-center text-lg-end">
-                <h2 className="title title-anim">{title}</h2>
+                <h2 className="title ">{title}</h2>
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
