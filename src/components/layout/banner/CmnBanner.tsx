@@ -23,7 +23,7 @@ const CmnBanner = ({ title, navigation, parent, parentLink }: BannerProps) => {
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
-                      <Link href="/">
+                      <Link href="/index-light">
                         <i className="fa-solid fa-house "></i>
                         الرئيسية
                       </Link>
