@@ -79,16 +79,16 @@ const HomeTwoBlogLight = () => {
           <SwiperSlide>
             <div className="blog-two__slider-single topy-tilt">
               <div className="blog__single-thumb">
-                <Link href="blog-single">
+                <Link href="membership-request">
                   <Image src={two} alt="Image" />
                 </Link>
               </div>
               <div className="blog__single-content">
                 <h4>
-                  <Link href="blog-single">طلب عضوية</Link>
+                  <Link href="membership-request">طلب عضوية</Link>
                 </h4>
                 <div className="blog__single-meta">
-                  <Link href="contact-us" className="sub-title">
+                  <Link href="membership-request" className="sub-title">
                     سجل عضويتك الأن
                     <i className="fa-solid fa-arrow-up"></i>
                   </Link>
@@ -101,16 +101,16 @@ const HomeTwoBlogLight = () => {
           <SwiperSlide>
             <div className="blog-two__slider-single topy-tilt">
               <div className="blog__single-thumb">
-                <Link href="blog-single">
+                <Link href="membership-request">
                   <Image src={two} alt="Image" />
                 </Link>
               </div>
               <div className="blog__single-content">
                 <h4>
-                  <Link href="blog-single">أخبرنا عن محتاج</Link>
+                  <Link href="membership-request">أخبرنا عن محتاج</Link>
                 </h4>
                 <div className="blog__single-meta">
-                  <Link href="contact-us" className="sub-title">
+                  <Link href="membership-request" className="sub-title">
                     سجل عضويتك الأن
                     <i className="fa-solid fa-arrow-up"></i>
                   </Link>
@@ -123,16 +123,16 @@ const HomeTwoBlogLight = () => {
           <SwiperSlide>
             <div className="blog-two__slider-single topy-tilt">
               <div className="blog__single-thumb">
-                <Link href="blog-single">
+                <Link href="membership-request">
                   <Image src={two} alt="Image" />
                 </Link>
               </div>
               <div className="blog__single-content">
                 <h4>
-                  <Link href="blog-single">حجز موعد للتبرع</Link>
+                  <Link href="membership-request">حجز موعد للتبرع</Link>
                 </h4>
                 <div className="blog__single-meta">
-                  <Link href="contact-us" className="sub-title">
+                  <Link href="membership-request" className="sub-title">
                     احجز موعد تبرع الأن
                     <i className="fa-solid fa-arrow-up"></i>
                   </Link>
@@ -144,16 +144,16 @@ const HomeTwoBlogLight = () => {
           <SwiperSlide>
             <div className="blog-two__slider-single topy-tilt">
               <div className="blog__single-thumb">
-                <Link href="blog-single">
+                <Link href="membership-request">
                   <Image src={two} alt="Image" />
                 </Link>
               </div>
               <div className="blog__single-content">
                 <h4>
-                  <Link href="blog-single">حجز موعد للتبرع</Link>
+                  <Link href="membership-request">حجز موعد للتبرع</Link>
                 </h4>
                 <div className="blog__single-meta">
-                  <Link href="contact-us" className="sub-title">
+                  <Link href="membership-request" className="sub-title">
                     تسجيل مستفيد جديد
                     <i className="fa-solid fa-arrow-up"></i>
                   </Link>
